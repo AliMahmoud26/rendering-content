@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Portrait from './assets/portrait.jpg'
+import Portrait from './portrait.jpg'
 
 function App() {
   const [loading, setLoading] = useState(false)
