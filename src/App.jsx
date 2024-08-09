@@ -1,10 +1,9 @@
 import { useState } from 'react'
-import Portrait from './portrait.jpg'
+import Portrait from '../public/Portrait.jpg'
 
 function App() {
   const [loading, setLoading] = useState(false)
   const [discovered, setDiscovered] = useState(false);
-  const [home, setHome] = useState(false);
 
   const handleDiscoverMore = () => {
     setLoading(true);
