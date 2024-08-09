@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #222;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.app h1 {
+  font-size: 4rem;
+  color: rgb(0, 140, 255);
+}
+.app p {
+  margin: 1.5rem 0;
+  color: #f20ebd;
+  line-height: 1.6;
+}
+.app .btn {
+  color: #fff;
+  background-color: #f20ebd;
+  font-size: 1.125rem;
+  padding: 0.625rem 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid #f20ebd;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.app .btn:hover {
+  color: #fff;
+  background-color: transparent;
+}
+.app .back-btn {
+  color: #fff;
+  background-color: #f20ebd;
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid #f20ebd;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.app .back-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.app .back-btn:hover {
+  color: #f20ebd;
+  background-color: transparent;
+}
+
+.card-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.card-holder .card {
+  background-color: #fff;
+  width: 350px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.card-holder .card:hover {
+  transform: scale(1.1) skewY(-5deg);
+}
+.card-holder .card > img {
+  width: 100%;
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  transition: all 0.4s ease-in-out;
+}
+.card-holder .card .card-content {
+  padding: 1rem 1.5rem 2rem;
+}
+.card-holder .card .card-content h3 {
+  font-size: 1.25rem;
+  margin-top: 0.25rem;
+  color: rgb(0, 140, 255);
+}
+.card-holder .card .card-content p {
+  margin-top: 1rem;
+  line-height: 1.4;
+  font-size: 0.875rem;
+}
+.card-holder .card .card-content > button {
+  color: #fff;
+  background-color: #f20ebd;
+  padding: 0.25rem 0.75rem;
+  margin-top: 0.25rem;
+  border-radius: 0.5rem;
+  border: 2px solid #f20ebd;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.card-holder .card .card-content > button:hover {
+  color: #f20ebd;
+  background-color: transparent;
+}/*# sourceMappingURL=style.css.map */

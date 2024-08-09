@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #222;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    // width: 80%;
+    padding: 2rem;
+
+    h1 {
+        font-size: 4rem;
+        color: rgb(0, 140, 255);
+    }
+
+    p {
+        margin: 1.5rem 0;
+        color: #f20ebd;
+        line-height: 1.6;
+    }
+
+    .btn {
+        color: #fff;
+        background-color: #f20ebd;
+        font-size: 1.125rem;
+        padding: .625rem 2rem;
+        border-radius: .5rem;
+        border: 2px solid #f20ebd;
+        outline: none;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+
+        &:hover {
+            color: #fff;
+            background-color: transparent;
+        }
+    }
+
+    .back-btn {
+        color: #fff;
+        background-color: #f20ebd;
+        font-size: 1.25rem;
+        padding: .75rem 1.5rem;
+        margin-top: 2rem;
+        border-radius: .5rem;
+        border: 2px solid #f20ebd;
+        outline: none;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        &:hover {
+            color: #f20ebd;
+            background-color: transparent;
+        }
+    }
+}
+
+.card-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    .card {
+        background-color: #fff;
+        width: 350px;
+        border-radius: .25rem;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+        box-shadow: 5px 5px 10px rgb(0 0 0 / 100%);
+
+        &:hover {
+            transform: scale(1.1) skewY(-5deg);;
+        }
+    
+        > img {
+            width: 100%;
+            border-top-right-radius: .25rem;
+            border-top-left-radius: .25rem;
+            transition: all .4s ease-in-out;
+        }
+        
+        .card-content {
+            padding: 1rem 1.5rem 2rem;
+    
+            h3 {
+                font-size: 1.25rem;
+                margin-top: .25rem;
+                color: rgb(0, 140, 255);
+            }
+    
+            p {
+                margin-top: 1rem;
+                line-height: 1.4;
+                font-size: .875rem;
+            }
+
+            > button {
+                color: #fff;
+                background-color: #f20ebd;
+                padding: .25rem .75rem;
+                margin-top: .25rem;
+                border-radius: .5rem;
+                border: 2px solid #f20ebd;
+                outline: none;
+                cursor: pointer;
+                transition: all .4s ease-in-out;
+
+                &:hover {
+                    color: #f20ebd;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}
